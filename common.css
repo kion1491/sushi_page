@@ -5,7 +5,6 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-
 nav {
   position: fixed;
   width: 90%;
@@ -30,11 +29,6 @@ nav.on {
 
 nav .logo img {
   width: 10.5rem;
-  /* margin-top: 0.5rem; */
-}
-
-nav ul {
-  /* display: inline-block; */
 }
 
 nav ul li {
@@ -43,13 +37,12 @@ nav ul li {
   display: inline-block;
   margin-right: 3.5rem;
   padding-top: 0.5rem;
+  cursor: pointer;
 }
 
 nav ul li:last-child {
   margin-right: 0;
 }
-
-nav .search-form {}
 
 nav .search-form__button {
   background: none;
@@ -130,8 +123,6 @@ main article.main__article01>ul li {
   width: 27%;
 }
 
-main article.main__article01>ul li img {}
-
 main article.main__article01>ul li h3 {
   font-weight: 600;
   font-size: 2.8rem;
@@ -157,8 +148,6 @@ main article.main__article02 ul {
   display: flex;
   justify-content: space-between;
 }
-
-main article.main__article02 ul li {}
 
 main article.main__article02 ul li:first-child {
   margin-right: 16rem;
@@ -190,8 +179,6 @@ main article.main__article02 ul li button {
   border-radius: 3rem;
   margin-top: 6.5rem;
 }
-
-
 
 main article.main__article03 {
   background-image: url(images/design_03.gif);
@@ -236,18 +223,12 @@ main article.main__article03>ul li em {
   font-weight: 700;
   font-size: 7.5rem;
   display: block;
-  /* margin-top: 50%;
-  transform: translate(0, -50%); */
 }
 
 main article.main__article03>ul li span {
   font-weight: 700;
   font-size: 4rem;
 }
-
-
-
-
 
 main article.main__article04 {
   background-image: url(images/design_04.gif);
@@ -263,13 +244,6 @@ main article.main__article04 ul {
   display: flex;
   justify-content: space-between;
 }
-
-main article.main__article04 ul li {}
-
-main article.main__article04 ul li:first-child {
-  /* margin-left: 16rem; */
-}
-
 
 main article.main__article04 ul li img {
   width: 100%;
@@ -296,10 +270,6 @@ main article.main__article04 ul li button {
   border-radius: 3rem;
   margin-top: 6.5rem;
 }
-
-
-
-
 
 main article.main__article05 {
   background-image: url(images/bg_02.gif);
